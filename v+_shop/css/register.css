@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.all{
+	margin: 50px auto;
+	width: 982px;
+	overflow: hidden;
+}
+hr{
+	color: #ccc;
+}
+.al{
+	width: 410px;
+	border: 2px solid #ccc;
+	padding: 20px;
+	float: left;
+}
+#p_title{
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	border-bottom: 1px solid red;
+}
+#p_title a{
+	width: 74px;
+	height: 24px;
+	display: inline-block;
+	margin-left: 10px;
+}
+#bgr{
+	background: url(../img/login/current.gif);
+}
+#bgg{
+	background: url(../img/login/gray.gif);
+}
+.al_a2{
+	margin-top: 20px;
+}
+#al2_1{
+	padding: 50px ;
+	background-color: #f5f5f5;
+	line-height: 30px;
+}
+#al2_1 #al2_1s{
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+}
+#login_btn{
+	color: white;
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	background: url(../img/login/btn_bg.gif);
+	text-align: center;
+}
+.red{
+	color: red;
+}
+#p01{
+	text-indent: 2em;
+}
+#p02{
+	height: 30px;
+	width: 410px;
+	text-align:right;
+}
+.al_a3{
+	color:grey;
+}
+#black{
+	color: black;font-weight: bold;
+
+}
+/*ar*/
+.ar{
+		width: 410px;
+	border: 2px solid #ccc;
+	padding: 20px;
+	float: left;
+	margin-left: 10px
+}
+.ar #al2_1s{
+	display: inline-block;
+	width: 100px;
+	font-size: 12px;
+}
+#ar_002{
+	display: inline-block;
+	font-size: 10px;
+	width: 300px;
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.ar_btm{
+	margin: 50px auto;
+	line-height: 50px;
+	text-align: center;
+}
+#ar_btn{
+	background: url(../img/sumit_bg.gif);
+	width: 150px;
+	height: 25px;
+	line-height: 25px;
+	color: white;
+	margin-left: 120px;
+
+}
+ /*footer样式*/
+.clear{
+	clear: both;
+}
+.footer{
+	width: 952px;
+	height: 130px;
+	background-color: #e8e8ea;
+	margin: 0 auto;
+	padding-left: 30px;
+}
+.ft_1{
+	height: 80px;
+	width: 130px;
+	border-right: 1px solid #ccc;
+	float: left;
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 22px;
+	padding-left: 40px;
+	padding-top: 15px;
+	overflow: hidden;
+}
+#ft_nobd{
+	border:none;
+}
+.ft_1 dt{
+	color: red;
+}
+/*footer bottom*/
+.ft_btm{
+	text-align: center;
+	font-size: 12px;
+}
+.ft_btm a{
+	border-left: 1px solid grey;
+	padding: 0 10px;
+	height: 5px;
+}
+.btm_p1{
+	margin: 10px;
+}

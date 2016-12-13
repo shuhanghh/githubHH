@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration:none;
+}
+.all{
+	margin: 20px auto;
+	width: 1024px;
+	overflow: hidden;
+}
+/*以下是头部样式*/
+.head_1{
+	width: 1024px;
+	height: 50px;
+	background-image: url(../img/menuBg.jpg);
+}
+#img1{
+	padding: 5px 0 0 10px;
+	float: left;
+}
+#btn-01{
+	float: left;
+	margin: 10px 0 0 20px;
+	width: 100px;
+	height: 40px;
+	background-image: url(../img/btn-01.gif);
+	text-align: center;
+	line-height: 40px;
+	color: red;
+	font-size: 16px;
+	font-weight: bolder;
+
+}
+#nav_right{
+	float: right;
+	margin: 20px 20px 0 0;
+}
+#nav_right li,#nav_right a{
+	float: left;
+	color: white;
+	font-family: 黑体;
+}
+/*头部第二行左中右*/
+.head2{
+	width: 1024px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.head2_1{
+	width: 190px;
+}
+.head2_1,.head2_2,.head2_3{
+	float: left;
+	border: 2px solid #ccc;
+}
+.head2_1 ul{
+	width: 186px;
+	/*overflow: hidden;*/
+	border: 2px solid #ccc;
+}
+.head2_1 li{
+	height: 29px;
+	background-image: url(../img/gameBg1.jpg);
+}
+.head2_2{
+	margin: 0 20px 0 20px;
+	width: 520px;
+	height: 236px;
+}
+/*h2右侧登录窗口样式*/
+.head2_3{
+	height: 206px;
+	width: 262px;
+	background-color: #f3f3f3;
+	padding-top: 30px;
+}
+input[type="button"]{
+	width: 63px;
+	height: 24px;
+	background-image: url(../img/btnLogin.jpg);
+}
+form{
+	line-height: 30px;
+}
+form span{
+	display: inline-block;
+	width: 60px;
+	text-align: right;
+}
+form h4{
+	float: none;
+}
+#btnlogo{
+	margin-top: 10px;
+	width: 150px;
+	float: left;
+}
+.bluef{
+	font-size: 12px;
+	color: #4090d0;
+	font-family: 微软雅黑;
+}
+.bluef p{
+	height: 20px;
+}
+form h4{
+	padding-left: 10px;
+	color: grey;
+}
+/*头部样式结束，开始body样式*/
+.body_l{
+	margin-top: 10px;
+	border: 2px solid #ccc;
+	width: 734px;
+	overflow: hidden;
+	float: left;
+}
+.title{
+	background-image: url(../img/titleBg.jpg);
+	height: 28px;
+	overflow: hidden;
+	line-height: 30px;
+}
+h4{
+	float: left;
+	padding-left: 10px;
+	color: #a53312;
+}
+.title ul{
+	float: left;
+	padding-left: 30px;
+}
+.title li{
+	float: left;
+	padding-left: 5px;
+	color: #ccc;
+}
+.title a{
+		text-decoration:underline;
+		color: #9f9f9f;
+}
+	/*body上方推荐*/
+.upbox{
+	margin: 30px auto;
+	overflow: hidden;
+}
+#upbox_f{
+	width: 310px;
+	height:150px;
+	border: 2px solid #ccc;
+	float: left;
+	margin-left: 30px;
+	overflow: hidden;
+}
+#upbox_f img{
+	float: left;
+}
+#upbox_f p{
+	font-family: 微软雅黑;
+	font-size: 14px;
+	padding-top: 15px;
+}
+.red{
+	color: red;
+}
+.downbox{
+	margin: 10px 20px 10px 20px;
+}
+#downbox_f{
+	width: 130px;
+	text-align: center;
+	font-size: 14px;
+	float: left;
+	margin: 21px;
+}
+.boxtitle{
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff4e4e;
+	margin: 8px 0 8px 0;
+}
+/*下端右侧样式*/
+.body_r1{
+	border: 2px solid #ccc;
+	margin: 10px 0px 10px 19px;
+	float: left;
+	width: 263px;
+}
+.body_r1 ul{
+	margin: 10px auto;
+}
+.body_r1 li{
+	border-bottom: 1px dashed grey;
+	font-size: 12px;
+	height: 20px;
+	line-height: 22px;
+	background:url(../img/btn-04.gif)no-repeat left center ;
+	padding-left: 40px;
+	margin-left: 10px;
+	width: 200px;
+	padding-top: 10px;
+}
+.body_r2{
+	border: 2px solid #ccc;
+	margin: 10px 0px 10px 19px;
+	float: left;
+	width: 263px;
+	height: 254px;
+
+}
+.gmvidio{
+	 margin: 20px 0 10px 20px;
+	 font-size: 12px;
+	 color: blue;
+	 line-height: 30px;
+	 border-bottom: 1px dashed grey;
+
+}
+.gmvidio img{
+	float: left;
+} 
+#nobd{
+	border: none;
+}
+/*FOOTER*/
+.footer{
+	width: 1024px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.footer li{
+	float: left;
+	padding-right: 15px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: #8989e9;
+}
+.footer p{
+	float: right;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color:grey;
+}
